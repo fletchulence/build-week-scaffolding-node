@@ -3,6 +3,9 @@ require('dotenv').config()
 
   PORT=9000
   NODE_ENV=development
+
+  DATABASE_URL = postgres://keuanoyymbwpig:9a60635fbfc6bda0936c9cff2eceaaf95849cc0a7f536b0f9b0dc2d979879ed8@ec2-54-197-43-39.compute-1.amazonaws.com:5432/deebj07lo1oht6
+
   DEV_DATABASE_URL=postgresql://postgres:password@localhost:5432/database_name
   TESTING_DATABASE_URL=postgresql://postgres:password@localhost:5432/testing_database_name
 
